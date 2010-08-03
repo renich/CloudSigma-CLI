@@ -1,0 +1,27 @@
+Quick Install
+
+1. Make sure that $HOME/bin is in your path:
+    gedit ~/.bash_profile
+        PATH=$PATH:$HOME/bin
+
+2. Create a directory named "bin" on your home directory:
+    mkdir ~/bin
+
+3. Copy cscli there
+    cp path/to/cscli ~/bin/
+
+4. Give it safe permissions
+    chmod 700 ~/bin/cscli
+
+5. Edit it to so it haves your username and password
+    CSAUTH=email@myisp.com:mySuper!D1ficult!.pa5sW0rd!
+
+6. Refresh the environment!
+    source ~/.bash_profile
+
+7. Try
+    cscli drives list
+
+The API documentation can be found at: 
+http://cloudsigma.com/en/platform-details/the-api
+
